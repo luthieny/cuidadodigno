@@ -1,0 +1,135 @@
+<section id="doctors" class="doctors">
+  <div class="container">
+
+    <div>
+      <h1>CONOCE A NUESTRO EQUIPO</h1><hr class="botm-line"><br>
+      <h3 style="color: #001031;">Nuestro equipo interdisciplinar está conformado por enfermeros profesionales, <br>médicos y especialistas en el area de nutrición y psicología, garantizando la calidad en el servicio integral que brindamos.</p>
+   <br>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor1.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Juan Manuel Deniz Andrade</h4>
+            <span style="color: #001031;">CEO</span>
+            <p style="color: #001031;">Lic. En Filosofía | Lic. En enfermeria | Mcs. Administración de empresas.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor2.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Sarahi Godinez Andrade</h4>
+            <span style="color: #001031;">Directora de recursos humanos</span>
+            <p style="color: #001031;">Lic. En enfermeria.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor3.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Ximena Jiménez Juárez</h4>
+            <span style="color: #001031;">Directora de operaciones</span>
+            <p style="color: #001031;">Lic. En enfermeria.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor4.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Jesús García Sánchez</h4>
+            <span style="color: #001031;">Director Financiero</span>
+            <p style="color: #001031;">Lic. En enfermeria.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor5.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Pepe Diaz</h4>
+            <span style="color: #001031;">Director de Maerketing</span>
+            <p style="color: #001031;">Lic. En teologia | Lic. En Filosofía | Lic. En Psicologia Clínica | Mcs. De Psicologia Clínica.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor6.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Jose Alejandro Verduzco Mata</h4>
+            <span style="color: #001031;">Director De Tecnologia</span>
+            <p style="color: #001031;">Lic. En Enfermeria | Esp. Enf Quirurgica y Admon | Mcs. Big Data - Business Intelligence & project management.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="img/doctor7.jpg" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 style="color: #001031;">Alejandro Solorzano</h4>
+            <span style="color: #001031;">Nutriologo Clinico</span>
+            <p style="color: #001031;">Lic. En Nutrición.</p>
+            <div class="social">
+              <a><i class="ri-twitter-fill"></i></a>
+              <a><i class="ri-facebook-fill"></i></a>
+              <a><i class="ri-instagram-fill"></i></a>
+              <a> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+<br>
+
+    </div>
+
+  </div>
+</section>
