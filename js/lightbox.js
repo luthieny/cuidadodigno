@@ -569,3 +569,81 @@
 
   return new Lightbox();
 }));
+
+
+
+'use strict';
+
+const grande = document.querySelector('.grande');
+const punto = document.querySelectorAll('.punto');
+const imagenes = document.querySelectorAll('.img');
+const lightbox = document.getElementById('lightbox');
+const imagenLightbox = document.getElementById('imagenLightbox');
+const cerrarLightbox = document.querySelector('.cerrar');
+const anterior = document.querySelector('.anterior');
+const siguiente = document.querySelector('.siguiente');
+
+let imagenActual = 0;
+
+punto.forEach((cadaPunto, i) => {
+  punto[i].addEventListener('click', () => {
+    let posicion = i;
+    let operacion = posicion * -50;
+
+    grande.style.transform = `translateX(${operacion}%)`;
+
+    punto.forEach((cadaPunto, i) => {
+      punto[i].classList.remove('activo');
+    });
+
+    punto[i].classList.add('activo');
+
+    imagenActual = i;
+  });
+});
+
+function abrirLightbox() {
+  lightbox.classList.add('activo');
+  imagenLightbox.src = imagenes[imagenActual].src;
+}
+
+imagenes.forEach((imagen, i) => {
+  imagen.addEventListener('click', () => {
+    imagenActual = i;
+    abrirLightbox();
+  });
+});
+
+cerrarLightbox.addEventListener('click', () => {
+  lightbox.classList.remove('activo');
+});
+
+function mostrarImagenSiguiente() {
+  imagenActual = (imagenActual + 1) % imagenes.length;
+  imagenLightbox.src = imagenes[imagenActual].src;
+}
+
+function mostrarImagenAnterior() {
+  imagenActual = (imagenActual - 1 + imagenes.length) % imagenes.length;
+  imagenLightbox.src = imagenes[imagenActual].src;
+}
+
+siguiente.addEventListener('click', () => {
+  mostrarImagenSiguiente();
+});
+
+anterior.addEventListener('click', () => {
+  mostrarImagenAnterior();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (lightbox.classList.contains('activo')) {
+    if (event.key === 'ArrowRight') {
+      mostrarImagenSiguiente();
+    } else if (event.key === 'ArrowLeft') {
+      mostrarImagenAnterior();
+    } else if (event.key === 'Escape') {
+      lightbox.classList.remove('activo');
+    }
+  }
+});

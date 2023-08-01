@@ -29,3 +29,17 @@
   });
 
 })(jQuery);
+
+  // Obtener todos los elementos que contienen la descripción
+  const expandableItems = document.querySelectorAll('.expandable-item');
+
+  // Agregar un event listener a cada elemento para el clic
+  expandableItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // Verificar si la pantalla es pequeña (usando la misma media query que en el CSS)
+      if (window.innerWidth <= 768) {
+        // Alternar la clase 'active' para mostrar u ocultar la descripción
+        item.querySelector('.expandable-content').classList.toggle('active');
+      }
+    });
+  });
